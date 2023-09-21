@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to the project directory
-cd /path/to/your-mern-project
+cd /home/ubuntu/mern/MERN-Sample-Social-Media-App
 
 # Pull the latest code from your Git repository
 git pull
