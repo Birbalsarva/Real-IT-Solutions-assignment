@@ -3,9 +3,6 @@
 # Change to the project directory
 cd /home/ubuntu/mern/MERN-Sample-Social-Media-App
 
-# Pull the latest code from your Git repository
-git pull
-
 # Build and serve the application using Docker Compose
 docker-compose -f docker-compose.ec2.yml up -d
 
