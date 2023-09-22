@@ -3,7 +3,7 @@ FROM node:16-alpine as build
 WORKDIR /app
 COPY client/package*.json ./
 RUN npm install
-COPY client .
+COPY ./client ./
 RUN npm run build
 
 # Stage 2: Create a lightweight production image
